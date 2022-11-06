@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0096c7;
+}
+
+.outer-container {
+  /* height: 100vh; */
+  /* width: 100vw; */
+}
+
+.container {
+  font-family: "Lato", sans-serif;
+  /* background-color: #ffffffaa; */
+  background: linear-gradient(to bottom right, #ffffffaa, #ffffff33);
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 8px #003e60;
+}
+
+h1 {
+  color: #212121;
+  font-size: 2.5rem;
+}
+header p {
+  font-size: 1rem;
+  color: rgba(97, 97, 97, 0.773);
+}
+
+.signup-body {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin: 10px 0 4px 0;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid #ffffff33;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #ffffff33;
+  outline: none;
+}
+
+#btn-submit {
+  margin: 24px 0 0 0;
+  background-color: #0096c7;
+  border-color: #0096c7;
+  color: white;
+}
+
+#btn-submit:hover {
+  background-color: #0077b6;
+  border-color: #0077b6;
+}
+
+footer p {
+  font-size: 1rem;
+  color: rgba(97, 97, 97, 0.773);
+  text-align: center;
+}
+
+a {
+  color: #0077b6;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  background: linear-gradient(to bottom right, #ffffffaa, #ffffff33);
+}
+
+.c1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.c2 {
+  position: absolute;
+  bottom: 20%;
+  right: 10%;
+}
